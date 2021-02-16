@@ -1,12 +1,12 @@
 {
-    "name": "Text to speech Bot",
-    "description": "A bot can convert text to speech",
+    "name": "Telegra.ph Uploader Bot",
+    "description": "A bot that can upload medias to Telegra.ph",
     "logo": "https://telegra.ph/file/b69c591d9667d187249c0.jpg",
     "keywords": [
-        "text",
-        "speech",
+        "Telegra.ph",
+        "Uploader",
         "Telegram Bot",
-        "jack"
+        "Benchamxd"
     ],
     "website": "https://benchamxd.me",
     "repository": "https://github.com/Benchamxd/Telegra.ph-Uploader/",
