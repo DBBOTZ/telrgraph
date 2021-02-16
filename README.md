@@ -33,7 +33,7 @@ For any type of help on deploy. Contact us on [INDUS CHATS](https://t.me/indusch
 # Thanks To
 Thanks To [AlbertEinsteinTg](https://github.com/AlbertEinsteinTg) For Helping Me in Some Cases
 
-Thanks To Owners Of Libraries That Used In THe Development Of Thios Repo
+Thanks To Owners Of Libraries That Used In The Development Of This Repo
 # Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
