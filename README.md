@@ -26,7 +26,10 @@ Now send /start to you bot to see if it is running!
 
 For any type of help on deploy. Contact us on [INDUS CHATS](https://t.me/induschats).
 
+# Thanks To
+Thanks To [AlbertEinsteinTg](https://githb.com/AlbertEinsteinTg) For Helping Me in Some Cases
 
+Thanks To Owners Of Libraries That Used In THe Development Of Thios Repo
 # Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
