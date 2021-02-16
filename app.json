@@ -21,8 +21,7 @@
             "value": ""
         },
         "APP_ID": {
-            "description": "Set this Value to 'ANYTHING'. Don't Change it",
-            "value": "ANYTHING"
+            "description": "Your API ID from my.telegram.org",
         }
     },
     "addons": [],
