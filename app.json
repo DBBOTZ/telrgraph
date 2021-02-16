@@ -21,9 +21,9 @@
             "value": ""
         },
         "APP_ID": {
-            "description": "Your APP ID from my.telegram.org",
-            "value": ""
-        },
+            "description": "Set this Value to 'ANYTHING'. Don't Change it",
+            "value": "ANYTHING"
+        }
     },
     "addons": [],
     "buildpacks": [
