@@ -8,9 +8,13 @@ YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW
 
 # Local Machine
 Clone the repository
+
 Install requirements: pip3 install -r requirements.txt
+
 edit the sample_config.py wih your configs
+
 python3 bot.py
+
 Now send /start to you bot to see if it is running!
 
 
