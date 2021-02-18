@@ -1,5 +1,5 @@
 # Telegraph-Uploader
-A Telegram Bot Written In Python To Upload Medias To telegra.ph 
+A Telegram Bot Written In Python To Upload Medias To telegra.ph   
 
 # DEPLOY
 YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW
