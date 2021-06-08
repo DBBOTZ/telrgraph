@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
 #    General Public License for more details.
 # 
-#    License can be found in < https://github.com/Benchamxd/Telegraph-Uploader/blob/main/License> 
+#    License can be found in < https://github.com/MoTechYT/MT-Telegraph-Uploader/blob/main/License> 
 
 import os
 from telegraph import upload_file
@@ -33,9 +33,9 @@ Tgraph = Client(
 async def uploadphoto(client, message):
   msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
   userid = str(message.chat.id)
-  img_path = (f"./DOWNLOADS/{userid}.jpg")
+  img_path = (f"./Download....!/{userid}.jpg")
   img_path = await client.download_media(message=message, file_name=img_path)
-  await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ.....`")
+  await msg.edit_text("`Uploading.....`")
   try:
     tlink = upload_file(img_path)
   except:
@@ -81,23 +81,23 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🤔Help', callback_data='help'),
+        InlineKeyboardButton('Close🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots'),
-        InlineKeyboardButton('Source Code', url='https://github.com/benchamxd/Telegraph-Uploader')
+        InlineKeyboardButton('🗣️Any Doubt', url='http://telegram.me/mo_tech_Group'),
+        InlineKeyboardButton('Source Code📃', url='https://github.com/MoTechYT/MT-Telegraph-Uploader')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hey there,
+        text="""<b>👋Hey there,
         
 im a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif to upload to Telegra.ph
         
-Made With Love By @indusBots</b>""",
+Made With Love By @Mo_Tech_YT</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -106,20 +106,20 @@ Made With Love By @indusBots</b>""",
 @Tgraph.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🏡Home', callback_data='home'),
+        InlineKeyboardButton('Close🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots')
+        InlineKeyboardButton('⚕️Our Channel⚕️', url='http://telegram.me/Mo_Tech_YT')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""There Is Nothung To KnowMore,
+        text="""**There Is Nothung To KnowMore,
         
 Just Send Me A Video/gif/photo Upto 5mb.
 
-i'll upload ut to telegra.ph and give you the direct link""",
+i'll upload ut to telegra.ph and give you the direct link**""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
