@@ -86,7 +86,7 @@ async def home(client, message):
     ],
     [
         InlineKeyboardButton('🗣️Any Doubt', url='http://telegram.me/mo_tech_Group'),
-        InlineKeyboardButton('Source Code📃', url='https://github.com/MoTechYT/MT-Telegraph-Uploader')
+        InlineKeyboardButton('Source Code📃', url='https://github.com/MoTechYT/MT-TelegraPh')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
