@@ -56,8 +56,6 @@ Now send /start to you bot to see if it is running!
 <details><summary>SUPPORT</summary>
 <p>
 <br>
-For any type of help on deploy. Contact us on [INDUS CHATS](https://t.me/induschats).
-
 # Thanks To
 Thanks To [AlbertEinsteinTg](https://github.com/AlbertEinsteinTg) For Helping Me in Some Cases
 
