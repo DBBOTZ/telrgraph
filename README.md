@@ -57,6 +57,7 @@ Now send /start to you bot to see if it is running!
 <p>
 <br>
 # Thanks To
+
 Thanks To [AlbertEinsteinTg](https://github.com/AlbertEinsteinTg) For Helping Me in Some Cases
 
 Thanks To Owners Of Libraries That Used In The Development Of This Repo
