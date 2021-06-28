@@ -22,14 +22,14 @@ from pyrogram.types import (
     InlineKeyboardMarkup, InlineKeyboardButton,
     CallbackQuery, InlineQuery)
 
-Tgraph = Client(
+Mo_tech_mrk_yt = Client(
    "Telegra.ph Uploader",
    api_id=Config.APP_ID,
    api_hash=Config.API_HASH,
    bot_token=Config.TG_BOT_TOKEN,
 )
 
-@Tgraph.on_message(filters.photo)
+@Mo_tech_mrk_yt.on_message(filters.photo)
 async def uploadphoto(client, message):
   msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
   userid = str(message.chat.id)
@@ -44,7 +44,7 @@ async def uploadphoto(client, message):
     await msg.edit_text(f"https://telegra.ph{tlink[0]}")     
     os.remove(img_path) 
 
-@Tgraph.on_message(filters.animation)
+@Mo_tech_mrk_yt.on_message(filters.animation)
 async def uploadgif(client, message):
   if(message.animation.file_size < 5242880):
     msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
@@ -61,7 +61,7 @@ async def uploadgif(client, message):
   else:
     await message.reply_text("Size Should Be Less Than 5 mb")
 
-@Tgraph.on_message(filters.video)
+@Mo_tech_mrk_yt.on_message(filters.video)
 async def uploadvid(client, message):
   if(message.video.file_size < 5242880):
     msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
@@ -78,7 +78,7 @@ async def uploadvid(client, message):
   else:
     await message.reply_text("Size Should Be Less Than 5 mb")
 
-@Tgraph.on_message(filters.command(["start"]))
+@Mo_tech_mrk_yt.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
         InlineKeyboardButton('🤔Help', callback_data='help'),
@@ -89,7 +89,7 @@ async def home(client, message):
         InlineKeyboardButton('Source Code📃', url='https://github.com/MoTechYT/MT-TelegraPh')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
-  await Tgraph.send_message(
+  await Mo_tech_mrk_yt.send_message(
         chat_id=message.chat.id,
         text="""<b>👋Hey there,
         
@@ -103,7 +103,7 @@ Made With Love By @Mo_Tech_YT</b>""",
         reply_to_message_id=message.message_id
     )
 
-@Tgraph.on_message(filters.command(["help"]))
+@Mo_tech_mrk_yt.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
         InlineKeyboardButton('🏡Home', callback_data='home'),
@@ -113,7 +113,7 @@ async def help(client, message):
         InlineKeyboardButton('⚕️Our Channel⚕️', url='http://telegram.me/Mo_Tech_YT')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
-  await Tgraph.send_message(
+  await Mo_tech_mrk_yt.send_message(
         chat_id=message.chat.id,
         text="""**There Is Nothung To KnowMore,
         
@@ -124,7 +124,7 @@ i'll upload ut to telegra.ph and give you the direct link**""",
         parse_mode="html",
         reply_to_message_id=message.message_id
     )                           
-@Tgraph.on_callback_query()
+@Mo_tech_mrk_yt.on_callback_query()
 async def button(Tgraph, update):
       cb_data = update.data
       if "help" in cb_data:
@@ -136,4 +136,4 @@ async def button(Tgraph, update):
         await update.message.delete()
         await home(Tgraph, update.message)
 
-Tgraph.run()
+Mo_tech_mrk_yt.run()
