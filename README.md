@@ -23,7 +23,7 @@
 </p>
 </details>
 
-A Telegram Bot Written In Python To Upload Medias To telegra.ph   
+A Telegram Bot Written In Python. Which helps To Upload Media's like gif video and image under 5MB To telegra.ph   
 
 <details><summary>Local Machine</summary>
 <p>
