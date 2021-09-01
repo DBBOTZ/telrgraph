@@ -93,9 +93,9 @@ async def home(client, message):
         chat_id=message.chat.id,
         text="""<b>👋Hey there,
         
-im a telegraph Uploader That Can Upload Photo, Video And Gif
+Am a telegraph Uploader That Can Upload Photo, Video And Gif
         
-Simply send me photo, video or gif to upload to Telegra.ph
+Simply send me photo, video or gif under 5MB I will upload it to Telegra.ph
         
 Made With Love By @Mo_Tech_YT</b>""",
         reply_markup=reply_markup,
@@ -119,7 +119,7 @@ async def help(client, message):
         
 Just Send Me A Video/gif/photo Upto 5mb.
 
-i'll upload ut to telegra.ph and give you the direct link**""",
+i'll upload it to telegra.ph and give you the direct link**""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
