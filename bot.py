@@ -85,8 +85,8 @@ async def home(client, message):
         InlineKeyboardButton('Close🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('🗣️Any Doubt', url='http://telegram.me/mo_tech_Group'),
-        InlineKeyboardButton('Source Code📃', url='https://github.com/MoTechYT/MT-TelegraPh')
+        InlineKeyboardButton('🗣️Any Doubt', url='https://t.me/DB_BOTZ_GROUP'),
+        InlineKeyboardButton('Source Code📃', url='https://telegra.ph/file/5efbcf8cd1edef89bd4dc.jpg')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Mo_tech_mrk_yt.send_message(
@@ -97,7 +97,7 @@ Am a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif under 5MB I will upload it to Telegra.ph
         
-Made With Love By @Mo_Tech_YT</b>""",
+Made With Love By @DB_BOTZ</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -110,10 +110,10 @@ async def help(client, message):
         InlineKeyboardButton('Close🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('⚕️Our Channel⚕️', url='http://telegram.me/Mo_Tech_YT')
+        InlineKeyboardButton('⚕️Our Channel⚕️', url='http://telegram.me/DB_BOTZ')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
-  await Mo_tech_mrk_yt.send_message(
+  await DB_BOTZ.send_message(
         chat_id=message.chat.id,
         text="""**There Is Nothung To KnowMore,
         
@@ -136,4 +136,4 @@ async def button(Tgraph, update):
         await update.message.delete()
         await home(Tgraph, update.message)
 
-Mo_tech_mrk_yt.run()
+DB_BOTZ.run()
