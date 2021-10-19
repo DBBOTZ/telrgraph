@@ -3,12 +3,12 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/MoTechYT/MT-TelegraPh/stargazers">
+  <a href="https://github.com/DBBOTZ/telrgraph/stargazers">
     <img src="https://img.shields.io/github/stars/MoTechYT/MT-TelegraPh?style=social">
 
   </a>
   
-  <a href="https://github.com/MoTechYT/MT-TelegraPh/fork">
+  <a href="https://github.com/DBBOTZ/telrgraph/fork">
     <img src="https://img.shields.io/github/forks/MoTechYT/MT-TelegraPh?label=Fork&style=social">
 
   </a>  
@@ -17,7 +17,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/MoTechYT/MT-TelegraPh">
+<a href="https://heroku.com/deploy?template=https://github.com/DBBOTZ/telrgraph">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -58,7 +58,7 @@ Now send /start to you bot to see if it is running!
 <br>
 # Thanks To
 
-Thanks To [AlbertEinsteinTg](https://github.com/AlbertEinsteinTg) For Helping Me in Some Cases
+Thanks To [LUCIFER MORNING STAR](https://github.com/MR_LUCIFER_KILLER) For Helping Me in Some Cases
 
 Thanks To Owners Of Libraries That Used In The Development Of This Repo
 # Licence
